@@ -1,0 +1,28 @@
+{
+  "name": "tada-design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "babel-plugin-emotion": "^9.2.10",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "docz": "^0.12.4"
+  },
+  "dependencies": {
+    "emotion": "^9.2.10",
+    "next": "^7.0.1",
+    "polished": "^2.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-emotion": "^9.2.10"
+  }
+}
