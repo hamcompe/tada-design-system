@@ -1,4 +1,4 @@
-import {css} from 'react-emotion'
+import {css} from '@emotion/core'
 import colors from 'design/colors'
 import {transparentize} from 'polished'
 

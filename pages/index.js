@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Button from 'components/Button/Button'
 import AnchorButton from 'components/AnchorButton/AnchorButton'
 
-export default function Page() {
+function Page() {
   return (
     <div>
       <h1>Tada Design System</h1>
@@ -13,3 +13,5 @@ export default function Page() {
     </div>
   )
 }
+
+export default Page
