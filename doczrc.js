@@ -9,7 +9,7 @@ export default {
     },
     {
       name: 'Contribute',
-      href: 'https://github.com/vannizer',
+      href: 'https://github.com/hamcompe/tada-design-system',
     },
   ],
 }
