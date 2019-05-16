@@ -1,0 +1,23 @@
+---
+menu: Components
+name: Input
+---
+
+import {Playground, Props} from 'docz'
+import Input from './Input'
+
+# Input
+
+<Props of={Input} />
+
+## Basic
+
+<Playground>
+  <Input label="Ideal state" placeholder="type something" />
+  <Input
+    label="Error state"
+    invalid
+    errorMessage="This is an error message."
+    placeholder="type something"
+  />
+</Playground>
