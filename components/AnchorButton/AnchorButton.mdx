@@ -3,21 +3,25 @@ menu: Components
 name: AnchorButton
 ---
 
-import { Playground, PropsTable } from 'docz'
+import {Playground, Props} from 'docz'
 import AnchorButton from './AnchorButton'
 
 # AnchorButton
 
-<PropsTable of={AnchorButton} />
+<Props of={AnchorButton} />
 
 ## Basic
+
 <Playground>
   <AnchorButton>Click me</AnchorButton>
   <AnchorButton color="white">Click me</AnchorButton>
 </Playground>
 
 ## Block Button
+
 <Playground>
   <AnchorButton size="block">Click me</AnchorButton>
-  <AnchorButton color="white" size="block">Click me</AnchorButton>
+  <AnchorButton color="white" size="block">
+    Click me
+  </AnchorButton>
 </Playground>
