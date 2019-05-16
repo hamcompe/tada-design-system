@@ -12,4 +12,5 @@ export default {
       href: 'https://github.com/hamcompe/tada-design-system',
     },
   ],
+  wrapper: 'components/Wrapper',
 }
